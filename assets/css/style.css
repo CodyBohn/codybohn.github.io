@@ -1,0 +1,206 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Rancho:400,700);
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+    text-align: center
+}
+
+.mt {
+    margin-top: 80px;
+}
+
+.mb {
+    margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #6F6F6F;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+    text-shadow:
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.navbar-brand:hover {
+    color: #237fbc !important;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+    background: url(../img/starry-night.jpg) no-repeat center top;
+    padding-top: 250px;
+    text-align: center;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    font-family: 'Rancho', cursive;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+#headerwrap h4 {
+    font-weight: 400;
+    color: #ffffff
+}
+
+#social {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+#social i {
+    font-size: 40px;
+    color: #4a4a4a
+}
+
+#social i:hover {
+    color: #237fbc
+}
+
+#skills {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
+}
+
+#skills i {
+    font-size: 40px;
+    color: #4a4a4a
+}
+
+#footerwrap {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #2f2f2f;
+}
+
+#footerwrap p {
+    color: #f2f2f2;
+    margin-left: 10px;
+}
+
+#workwrap {
+    background: url(../img/wood.jpg) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 150px;
+    text-align: center;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#workwrap h4 {
+    font-weight: 400;
+    color: #ffffff
+}
+
+#aboutwrap {
+    background: url(../img/subway.jpg) no-repeat center top;
+    margin-top: -70px;
+    padding-top: 250px;
+    text-align: center;
+    background-position: center center;
+    min-height: 550px;
+    width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Gallery */
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery img:hover {
+    opacity: 0.4;
+}
